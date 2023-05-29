@@ -1,0 +1,22 @@
+1.sudo apt upgrade
+2.egrep -c '(vmx|svm)' /proc/cpuinfo
+3.sudo apt-get install qemu-kvm libvirt-daemon -system libvirt-clients bridge-utils virt-manager
+4.sudo kvm-ok
+5.sudo adduser copy@before content libvirt
+6.sudo adduser copy @before content KVM
+7.sudo systemctl restart libvirtd
+8.virsh list 
+9. Sudo systemctl status libvirtd
+10.sudo systemctl enable --now libvirtd
+11.sudo virt-manager
+
+
+12.click on computer icon
+13. Create a virtual machine
+14.select local install media
+15.forward
+16. browse
+17. Browse local
+18.select iso file and click on choose volume
+19. Forward  next forward next forward after that giving all information
+20.finish and after machine started click enter
